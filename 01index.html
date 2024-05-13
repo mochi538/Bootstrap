@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!--Linea que le dice al navegador el tipo de de documento (en este caso doc html)-->
+<html lang="es"> <!--Idioma del documento-->
+<head> <!-- metadatos (informción que está detras)-->
+    <meta charset="UTF-8"><!-- Caracteres especiales (¨, ´, ñ, etc...)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- escala inicial-->
+    <title>Galleta_Practica1 </title><!-- Título de documento-->
+    <meta name="description" content="Aplicación web dedicada al aprendizaje">
+    <link rel="shortcut icon" href="img/galleta.png" type="imagen/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        p{
+            color: rgb(0, 0, 0);
+            background-color: rgb(102, 182, 168);
+        }
+        h4{
+            color: rgb(0, 0, 0);
+            background-color: rgb(15, 153, 130);
+        }
+        .parrafo1{
+            color: rgb(0, 0, 0);
+            background-color: rgb(40, 194, 168);
+
+        }
+        .parrafo2{
+            color: rgb(0, 0, 0);
+            background-color: rgb(75, 253, 224);
+
+        }
+
+    </style>
+
+</head> <!-- cierre de la etiqueta-->
+<body>
+    <header>
+        <h1 class="color">Prácticas HTML</h1>
+        <nav class="color" , id="menu">
+            <ul>
+                <li><a href="#menu">Inicio</a></li>
+                <li><a href="/ADSO_TARDE/02proyecto/02index.html" target="_blank">Practic 2</a></li>
+                <li><a href="/ADSO_TARDE/02proyecto/06tablas.html" target="_blank">Tablas</a></li>
+                <li><a href="/ADSO_TARDE/02proyecto/07formulario.html" target="_blank">Formulario</a></li>
+                <li><a href="/ADSO_TARDE/02proyecto/08multimedia.html" target="_blank">Multimedia</a></li>
+                <li><a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Sena</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4xnsmyI5KMQ" target="_blank">Prohibido 👹👺</a></li>
+                <li><a href="#encabezado" >Encabezado</a></li>
+                <li><a href="/ADSO_TARDE/02proyecto/08multimedia.html#video" target="_blank">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Estilo CSS inline-->
+    <!--Considerado como una mala practica de desarrollo porque el código dentro de la etiquta se va a extender-->
+
+        <h1 style="color: #661c1c;">Encabezado mayor</h1><!-- era una etiqueta--> <!-- si tiene algo dentro es un elemento-->
+        <h2 style="background-color: rgb(16, 150, 127)">Encabezado</h2><!--Jerarquia del encabezado-->
+        <h3 class="ejercicio1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores enim numquam. Facilis numquam unde modi libero odit dicta neque hic magnam aliquam itaque. Porro ipsa assumenda consequatur blanditiis recusandae?</h3>
+        <h4 class="ejercicio2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dignissimos quasi, ullam accusantium modi, incidunt vel aut earum nulla itaque perferendis placeat ipsa facilis iusto quod! Officiis accusamus vel fuga?</h4>
+        <h5  class="ejercicio3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, hic tempore ipsa vel quo optio sed quisquam dolorem quibusdam? Adipisci, numquam iste? Qui quidem nam non nihil nulla facilis dignissimos.</h5>
+        <h6 class="ejercicio4">El pez cantante canta en todas partes</h6>
+    <!--Estilo CSS embebido-->
+    <!--El estilo embebido va ubicado en el <head>, es buena práctica porque el código no se extiende sino que se alarga-->
+        <h4 >Enstilo embebido</h4>
+        <p class= "parrafo1">Estilo CSS embebido Prácticas</p>
+        <p class="parrafo2">Hola xd</p>
+    <!-- Estilo CSS medianrte archivo externo--> 
+    <!-- Considerado como La mejor practica de desarrollo-->
+       <p class="parrafo3">hola x2</p>
+       <h3 class="ejercicio1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores enim numquam. Facilis numquam unde modi libero odit dicta neque hic magnam aliquam itaque. Porro ipsa assumenda consequatur blanditiis recusandae?</h3>
+        <h4 class="ejercicio2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dignissimos quasi, ullam accusantium modi, incidunt vel aut earum nulla itaque perferendis placeat ipsa facilis iusto quod! Officiis accusamus vel fuga?</h4>
+        <h5  class="ejercicio3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, hic tempore ipsa vel quo optio sed quisquam dolorem quibusdam? Adipisci, numquam iste? Qui quidem nam non nihil nulla facilis dignissimos.</h5>
+        <h3 class="ejercicio1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores enim numquam. Facilis numquam unde modi libero odit dicta neque hic magnam aliquam itaque. Porro ipsa assumenda consequatur blanditiis recusandae?</h3>
+        <h4 class="ejercicio2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dignissimos quasi, ullam accusantium modi, incidunt vel aut earum nulla itaque perferendis placeat ipsa facilis iusto quod! Officiis accusamus vel fuga?</h4>
+        <h5  class="ejercicio3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, hic tempore ipsa vel quo optio sed quisquam dolorem quibusdam? Adipisci, numquam iste? Qui quidem nam non nihil nulla facilis dignissimos.</h5>
+        <h3 class="ejercicio1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores enim numquam. Facilis numquam unde modi libero odit dicta neque hic magnam aliquam itaque. Porro ipsa assumenda consequatur blanditiis recusandae?</h3>
+        <h4 class="ejercicio2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dignissimos quasi, ullam accusantium modi, incidunt vel aut earum nulla itaque perferendis placeat ipsa facilis iusto quod! Officiis accusamus vel fuga?</h4>
+        <h5  class="ejercicio3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, hic tempore ipsa vel quo optio sed quisquam dolorem quibusdam? Adipisci, numquam iste? Qui quidem nam non nihil nulla facilis dignissimos.</h5>
+        <p class="Royal:b" id="encabezado" >Hasta cuando seguiras pensando que puedes jugar a pedir sin nada dar :c</p>
+</body>
+</html>       
